@@ -101,6 +101,9 @@
 		0D978A012B96402200308A08 /* Penny Pockets */ = {
 			isa = PBXGroup;
 			children = (
+				0D978A352B96472800308A08 /* Features */,
+				0D978A372B96475C00308A08 /* Utilities */,
+				0D978A362B96475700308A08 /* Services */,
 				0D978A022B96402200308A08 /* AppDelegate.swift */,
 				0D978A042B96402200308A08 /* SceneDelegate.swift */,
 				0D978A062B96402200308A08 /* ViewController.swift */,
@@ -128,6 +131,27 @@
 				0D978A282B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift */,
 			);
 			path = "Penny PocketsUITests";
+			sourceTree = "<group>";
+		};
+		0D978A352B96472800308A08 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		0D978A362B96475700308A08 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0D978A372B96475C00308A08 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,11 +473,13 @@
 				DEVELOPMENT_TEAM = NC7G924HW9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Penny Pockets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Penny Pockets";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,11 +503,13 @@
 				DEVELOPMENT_TEAM = NC7G924HW9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Penny Pockets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Penny Pockets";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
