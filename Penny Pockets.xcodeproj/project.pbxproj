@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D978A032B96402200308A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A022B96402200308A08 /* AppDelegate.swift */; };
+		0D978A052B96402200308A08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A042B96402200308A08 /* SceneDelegate.swift */; };
+		0D978A072B96402200308A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A062B96402200308A08 /* ViewController.swift */; };
+		0D978A0A2B96402200308A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A082B96402200308A08 /* Main.storyboard */; };
+		0D978A0D2B96402200308A08 /* Penny_Pockets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A0B2B96402200308A08 /* Penny_Pockets.xcdatamodeld */; };
+		0D978A0F2B96402400308A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A0E2B96402400308A08 /* Assets.xcassets */; };
+		0D978A122B96402400308A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A102B96402400308A08 /* LaunchScreen.storyboard */; };
+		0D978A1D2B96402500308A08 /* Penny_PocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A1C2B96402500308A08 /* Penny_PocketsTests.swift */; };
+		0D978A272B96402500308A08 /* Penny_PocketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A262B96402500308A08 /* Penny_PocketsUITests.swift */; };
+		0D978A292B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A282B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D978A192B96402500308A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9789F72B96402200308A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9789FE2B96402200308A08;
+			remoteInfo = "Penny Pockets";
+		};
+		0D978A232B96402500308A08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D9789F72B96402200308A08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D9789FE2B96402200308A08;
+			remoteInfo = "Penny Pockets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9789FF2B96402200308A08 /* Penny Pockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penny Pockets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D978A022B96402200308A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D978A042B96402200308A08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D978A062B96402200308A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D978A092B96402200308A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D978A0C2B96402200308A08 /* Penny_Pockets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Penny_Pockets.xcdatamodel; sourceTree = "<group>"; };
+		0D978A0E2B96402400308A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D978A112B96402400308A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D978A132B96402400308A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D978A182B96402500308A08 /* Penny PocketsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penny PocketsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D978A1C2B96402500308A08 /* Penny_PocketsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penny_PocketsTests.swift; sourceTree = "<group>"; };
+		0D978A222B96402500308A08 /* Penny PocketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penny PocketsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D978A262B96402500308A08 /* Penny_PocketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penny_PocketsUITests.swift; sourceTree = "<group>"; };
+		0D978A282B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penny_PocketsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9789FC2B96402200308A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D978A152B96402500308A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D978A1F2B96402500308A08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D9789F62B96402200308A08 = {
+			isa = PBXGroup;
+			children = (
+				0D978A012B96402200308A08 /* Penny Pockets */,
+				0D978A1B2B96402500308A08 /* Penny PocketsTests */,
+				0D978A252B96402500308A08 /* Penny PocketsUITests */,
+				0D978A002B96402200308A08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D978A002B96402200308A08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D9789FF2B96402200308A08 /* Penny Pockets.app */,
+				0D978A182B96402500308A08 /* Penny PocketsTests.xctest */,
+				0D978A222B96402500308A08 /* Penny PocketsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D978A012B96402200308A08 /* Penny Pockets */ = {
+			isa = PBXGroup;
+			children = (
+				0D978A022B96402200308A08 /* AppDelegate.swift */,
+				0D978A042B96402200308A08 /* SceneDelegate.swift */,
+				0D978A062B96402200308A08 /* ViewController.swift */,
+				0D978A082B96402200308A08 /* Main.storyboard */,
+				0D978A0E2B96402400308A08 /* Assets.xcassets */,
+				0D978A102B96402400308A08 /* LaunchScreen.storyboard */,
+				0D978A132B96402400308A08 /* Info.plist */,
+				0D978A0B2B96402200308A08 /* Penny_Pockets.xcdatamodeld */,
+			);
+			path = "Penny Pockets";
+			sourceTree = "<group>";
+		};
+		0D978A1B2B96402500308A08 /* Penny PocketsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D978A1C2B96402500308A08 /* Penny_PocketsTests.swift */,
+			);
+			path = "Penny PocketsTests";
+			sourceTree = "<group>";
+		};
+		0D978A252B96402500308A08 /* Penny PocketsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D978A262B96402500308A08 /* Penny_PocketsUITests.swift */,
+				0D978A282B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift */,
+			);
+			path = "Penny PocketsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D9789FE2B96402200308A08 /* Penny Pockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D978A2C2B96402500308A08 /* Build configuration list for PBXNativeTarget "Penny Pockets" */;
+			buildPhases = (
+				0D9789FB2B96402200308A08 /* Sources */,
+				0D9789FC2B96402200308A08 /* Frameworks */,
+				0D9789FD2B96402200308A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penny Pockets";
+			productName = "Penny Pockets";
+			productReference = 0D9789FF2B96402200308A08 /* Penny Pockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D978A172B96402500308A08 /* Penny PocketsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D978A2F2B96402500308A08 /* Build configuration list for PBXNativeTarget "Penny PocketsTests" */;
+			buildPhases = (
+				0D978A142B96402500308A08 /* Sources */,
+				0D978A152B96402500308A08 /* Frameworks */,
+				0D978A162B96402500308A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D978A1A2B96402500308A08 /* PBXTargetDependency */,
+			);
+			name = "Penny PocketsTests";
+			productName = "Penny PocketsTests";
+			productReference = 0D978A182B96402500308A08 /* Penny PocketsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D978A212B96402500308A08 /* Penny PocketsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D978A322B96402500308A08 /* Build configuration list for PBXNativeTarget "Penny PocketsUITests" */;
+			buildPhases = (
+				0D978A1E2B96402500308A08 /* Sources */,
+				0D978A1F2B96402500308A08 /* Frameworks */,
+				0D978A202B96402500308A08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D978A242B96402500308A08 /* PBXTargetDependency */,
+			);
+			name = "Penny PocketsUITests";
+			productName = "Penny PocketsUITests";
+			productReference = 0D978A222B96402500308A08 /* Penny PocketsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D9789F72B96402200308A08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0D9789FE2B96402200308A08 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0D978A172B96402500308A08 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0D9789FE2B96402200308A08;
+					};
+					0D978A212B96402500308A08 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 0D9789FE2B96402200308A08;
+					};
+				};
+			};
+			buildConfigurationList = 0D9789FA2B96402200308A08 /* Build configuration list for PBXProject "Penny Pockets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D9789F62B96402200308A08;
+			productRefGroup = 0D978A002B96402200308A08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D9789FE2B96402200308A08 /* Penny Pockets */,
+				0D978A172B96402500308A08 /* Penny PocketsTests */,
+				0D978A212B96402500308A08 /* Penny PocketsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9789FD2B96402200308A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D978A122B96402400308A08 /* LaunchScreen.storyboard in Resources */,
+				0D978A0F2B96402400308A08 /* Assets.xcassets in Resources */,
+				0D978A0A2B96402200308A08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D978A162B96402500308A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D978A202B96402500308A08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D9789FB2B96402200308A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D978A0D2B96402200308A08 /* Penny_Pockets.xcdatamodeld in Sources */,
+				0D978A072B96402200308A08 /* ViewController.swift in Sources */,
+				0D978A032B96402200308A08 /* AppDelegate.swift in Sources */,
+				0D978A052B96402200308A08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D978A142B96402500308A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D978A1D2B96402500308A08 /* Penny_PocketsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D978A1E2B96402500308A08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D978A272B96402500308A08 /* Penny_PocketsUITests.swift in Sources */,
+				0D978A292B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D978A1A2B96402500308A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9789FE2B96402200308A08 /* Penny Pockets */;
+			targetProxy = 0D978A192B96402500308A08 /* PBXContainerItemProxy */;
+		};
+		0D978A242B96402500308A08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D9789FE2B96402200308A08 /* Penny Pockets */;
+			targetProxy = 0D978A232B96402500308A08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D978A082B96402200308A08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D978A092B96402200308A08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D978A102B96402400308A08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D978A112B96402400308A08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D978A2A2B96402500308A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D978A2B2B96402500308A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D978A2D2B96402500308A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NC7G924HW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Penny Pockets/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mostafa3la2.Penny-Pockets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D978A2E2B96402500308A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NC7G924HW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Penny Pockets/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mostafa3la2.Penny-Pockets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D978A302B96402500308A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NC7G924HW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mostafa3la2.Penny-PocketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penny Pockets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Penny Pockets";
+			};
+			name = Debug;
+		};
+		0D978A312B96402500308A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NC7G924HW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mostafa3la2.Penny-PocketsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penny Pockets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Penny Pockets";
+			};
+			name = Release;
+		};
+		0D978A332B96402500308A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NC7G924HW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mostafa3la2.Penny-PocketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penny Pockets";
+			};
+			name = Debug;
+		};
+		0D978A342B96402500308A08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NC7G924HW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mostafa3la2.Penny-PocketsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penny Pockets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D9789FA2B96402200308A08 /* Build configuration list for PBXProject "Penny Pockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D978A2A2B96402500308A08 /* Debug */,
+				0D978A2B2B96402500308A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D978A2C2B96402500308A08 /* Build configuration list for PBXNativeTarget "Penny Pockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D978A2D2B96402500308A08 /* Debug */,
+				0D978A2E2B96402500308A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D978A2F2B96402500308A08 /* Build configuration list for PBXNativeTarget "Penny PocketsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D978A302B96402500308A08 /* Debug */,
+				0D978A312B96402500308A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D978A322B96402500308A08 /* Build configuration list for PBXNativeTarget "Penny PocketsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D978A332B96402500308A08 /* Debug */,
+				0D978A342B96402500308A08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D978A0B2B96402200308A08 /* Penny_Pockets.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D978A0C2B96402200308A08 /* Penny_Pockets.xcdatamodel */,
+			);
+			currentVersion = 0D978A0C2B96402200308A08 /* Penny_Pockets.xcdatamodel */;
+			path = Penny_Pockets.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0D9789F72B96402200308A08 /* Project object */;
+}
