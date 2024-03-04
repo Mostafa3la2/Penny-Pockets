@@ -1,0 +1,13 @@
+*.hmap
+xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+.build/
+xcuserdata/**/*
+!xcuserdata/**/xcschemes/*
+*.xcuserdata
+.scannerwork/
+sonar-reports/
+compile_commands.json
+xcodebuild.log
