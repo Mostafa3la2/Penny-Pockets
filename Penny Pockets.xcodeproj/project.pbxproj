@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D249E202BF1671B0065F079 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D249E1F2BF1671B0065F079 /* OnboardingViewModel.swift */; };
+		0D249E232BF167A80065F079 /* OnboardingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D249E222BF167A80065F079 /* OnboardingModels.swift */; };
+		0D249E252BF16BA90065F079 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D249E242BF16BA90065F079 /* Assets.swift */; };
+		0D249E272BF16BFC0065F079 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D249E262BF16BFC0065F079 /* DesignSystem.swift */; };
+		0D249E292BF16D7C0065F079 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D249E282BF16D7C0065F079 /* Extensions.swift */; };
 		0D978A032B96402200308A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A022B96402200308A08 /* AppDelegate.swift */; };
 		0D978A052B96402200308A08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A042B96402200308A08 /* SceneDelegate.swift */; };
-		0D978A072B96402200308A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A062B96402200308A08 /* ViewController.swift */; };
-		0D978A0A2B96402200308A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A082B96402200308A08 /* Main.storyboard */; };
 		0D978A0D2B96402200308A08 /* Penny_Pockets.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A0B2B96402200308A08 /* Penny_Pockets.xcdatamodeld */; };
 		0D978A0F2B96402400308A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A0E2B96402400308A08 /* Assets.xcassets */; };
 		0D978A122B96402400308A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A102B96402400308A08 /* LaunchScreen.storyboard */; };
 		0D978A1D2B96402500308A08 /* Penny_PocketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A1C2B96402500308A08 /* Penny_PocketsTests.swift */; };
 		0D978A272B96402500308A08 /* Penny_PocketsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A262B96402500308A08 /* Penny_PocketsUITests.swift */; };
 		0D978A292B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A282B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift */; };
+		0D978A3D2B96507800308A08 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D978A3B2B96507800308A08 /* OnboardingViewController.swift */; };
+		0D978A3E2B96507800308A08 /* OnboardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D978A3C2B96507800308A08 /* OnboardingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D249E1F2BF1671B0065F079 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		0D249E222BF167A80065F079 /* OnboardingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModels.swift; sourceTree = "<group>"; };
+		0D249E242BF16BA90065F079 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		0D249E262BF16BFC0065F079 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		0D249E282BF16D7C0065F079 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0D9789FF2B96402200308A08 /* Penny Pockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penny Pockets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D978A022B96402200308A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D978A042B96402200308A08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D978A062B96402200308A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D978A092B96402200308A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D978A0C2B96402200308A08 /* Penny_Pockets.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Penny_Pockets.xcdatamodel; sourceTree = "<group>"; };
 		0D978A0E2B96402400308A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D978A112B96402400308A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		0D978A222B96402500308A08 /* Penny PocketsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penny PocketsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D978A262B96402500308A08 /* Penny_PocketsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penny_PocketsUITests.swift; sourceTree = "<group>"; };
 		0D978A282B96402500308A08 /* Penny_PocketsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penny_PocketsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D978A3B2B96507800308A08 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		0D978A3C2B96507800308A08 /* OnboardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D249E1E2BF167030065F079 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D249E1F2BF1671B0065F079 /* OnboardingViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		0D249E212BF167960065F079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0D249E222BF167A80065F079 /* OnboardingModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0D9789F62B96402200308A08 = {
 			isa = PBXGroup;
 			children = (
@@ -102,12 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				0D978A352B96472800308A08 /* Features */,
-				0D978A372B96475C00308A08 /* Utilities */,
 				0D978A362B96475700308A08 /* Services */,
+				0D978A372B96475C00308A08 /* Utilities */,
 				0D978A022B96402200308A08 /* AppDelegate.swift */,
 				0D978A042B96402200308A08 /* SceneDelegate.swift */,
-				0D978A062B96402200308A08 /* ViewController.swift */,
-				0D978A082B96402200308A08 /* Main.storyboard */,
 				0D978A0E2B96402400308A08 /* Assets.xcassets */,
 				0D978A102B96402400308A08 /* LaunchScreen.storyboard */,
 				0D978A132B96402400308A08 /* Info.plist */,
@@ -136,6 +160,7 @@
 		0D978A352B96472800308A08 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				0D978A392B96504D00308A08 /* Onboarding */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -150,8 +175,38 @@
 		0D978A372B96475C00308A08 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0D978A382B96482A00308A08 /* Design System */,
+				0D249E282BF16D7C0065F079 /* Extensions.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0D978A382B96482A00308A08 /* Design System */ = {
+			isa = PBXGroup;
+			children = (
+				0D249E242BF16BA90065F079 /* Assets.swift */,
+				0D249E262BF16BFC0065F079 /* DesignSystem.swift */,
+			);
+			path = "Design System";
+			sourceTree = "<group>";
+		};
+		0D978A392B96504D00308A08 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0D249E212BF167960065F079 /* Models */,
+				0D249E1E2BF167030065F079 /* View Models */,
+				0D978A3A2B96505F00308A08 /* Views */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0D978A3A2B96505F00308A08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D978A3B2B96507800308A08 /* OnboardingViewController.swift */,
+				0D978A3C2B96507800308A08 /* OnboardingViewController.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +315,7 @@
 			files = (
 				0D978A122B96402400308A08 /* LaunchScreen.storyboard in Resources */,
 				0D978A0F2B96402400308A08 /* Assets.xcassets in Resources */,
-				0D978A0A2B96402200308A08 /* Main.storyboard in Resources */,
+				0D978A3E2B96507800308A08 /* OnboardingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,10 +340,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D249E232BF167A80065F079 /* OnboardingModels.swift in Sources */,
 				0D978A0D2B96402200308A08 /* Penny_Pockets.xcdatamodeld in Sources */,
-				0D978A072B96402200308A08 /* ViewController.swift in Sources */,
+				0D249E252BF16BA90065F079 /* Assets.swift in Sources */,
+				0D249E272BF16BFC0065F079 /* DesignSystem.swift in Sources */,
+				0D249E292BF16D7C0065F079 /* Extensions.swift in Sources */,
+				0D978A3D2B96507800308A08 /* OnboardingViewController.swift in Sources */,
 				0D978A032B96402200308A08 /* AppDelegate.swift in Sources */,
 				0D978A052B96402200308A08 /* SceneDelegate.swift in Sources */,
+				0D249E202BF1671B0065F079 /* OnboardingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0D978A082B96402200308A08 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0D978A092B96402200308A08 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0D978A102B96402400308A08 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -477,7 +529,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,7 +558,6 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
